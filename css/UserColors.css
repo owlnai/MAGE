@@ -1,6 +1,7 @@
 /* Default user preference colors */
 
 @media (prefers-color-scheme: light) {
+  :root {
     
     --color-menu-highlight-background: #fff;
     --color-menu-highlight-text: #000;
@@ -8,9 +9,11 @@
     --color-interface-background: #ddd;
     --color-interface-text: #222;
     
+  }
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
     
     --color-menu-highlight-background: #000;
     --color-menu-highlight-text: #fff;
@@ -18,6 +21,7 @@
     --color-interface-background: #222;
     --color-interface-text: #ddd;
     
+  }
 }
 
 :root /* neutral/other */ {
